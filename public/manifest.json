@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "RepoRead AI — Auto README Updater",
+  "version": "1.0.0",
+  "description": "1-click automatic README generator and GitHub updater.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://github.com/*",
+    "https://raw.githubusercontent.com/*",
+    "https://api.github.com/*"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "RepoRead AI — Auto Update README",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
